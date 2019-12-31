@@ -1,15 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ImmutablePropTypes from 'react-immutable-proptypes';
-import ApplicationRecord from '../../modules/application/records/application';
+import { Application } from '../../modules/application/records/application';
 
 import { connect } from 'react-redux';
 import * as actions from '../../modules/actions';
 
 import logo from '../../resources/logo.svg';
 import './App.css';
-
-const { Application } = ApplicationRecord;
 
 function App(props) {
   const { application, dispatch } = props;

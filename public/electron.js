@@ -56,6 +56,8 @@ const createWindow = () => {
       .catch(err => {
         console.log('An error occurred: ', err);
       });
+    
+      mainWindow.webContents.openDevTools();
   }
 
   mainWindow.once('ready-to-show', () => {

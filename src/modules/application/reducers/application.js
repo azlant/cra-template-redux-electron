@@ -1,11 +1,11 @@
 import {Record, List, Map, Set, OrderedMap} from 'immutable';
-import ApplicationRecord from '../records/application';
+import { Application } from '../records/application';
 
 import 
     APP_INITIALIZE
 from '../actions';
 
-const { Application } = ApplicationRecord;
+// const { Application } = ApplicationRecord;
 const initialAppState = new Application();
 
 export default (state = initialAppState, action )=> {
