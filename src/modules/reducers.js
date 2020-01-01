@@ -1,5 +1,5 @@
-import application from './application/reducers';
+import application from './application-old/reducers';
 
 export default {
-    ...application,
+    application,
 };
