@@ -15,8 +15,6 @@ function App(props) {
   const { application, dispatch } = props;
   const { flag } = application;
   const boundActions = bindActionCreators(actions, dispatch);  
-  console.log("TCL: App -> actions", actions)
-  // console.log("TCL: App -> boundActions", boundActions)
   
   return (
     <div className="App">
