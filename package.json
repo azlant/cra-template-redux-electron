@@ -54,6 +54,7 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.0",
     "@reduxjs/toolkit": "^1.2.1",
+    "babel-cli": "^6.26.0",
     "copy-webpack-plugin": "^5.0.4",
     "electron": "4.2.6",
     "electron-builder": "^20.18.0",

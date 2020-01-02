@@ -1,13 +1,21 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-export const flagSlice = createSlice({
-    name: 'flag',
-    initialState: false,
+// a concern with this approach: it needs its own approach to reducers
+// that makes it difficult to use Immutable and contains magic, so it ends up
+// hiding a lot of what it's generating.
+
+const applicationSlice = createSlice({
+    name: 'application',
+    initialState: { 
+        flag: false 
+    },
     reducers: {
         toggleFlag(state) {
-            console.log(state);
-            state = !state;
-            console.log(state);
+            state.flag = !state.flag;
         }
     }
-})
+});
+
+export { 
+    applicationSlice,
+};
