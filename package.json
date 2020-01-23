@@ -1,8 +1,9 @@
 {
-  "name": "electron-redux template",
+  "name": "electron-redux-template",
   "version": "0.1.0",
+  "description": "cra template for both electron and redux",
+  "author": "Aaron Azlant",
   "homepage": "./",
-  "private": true,
   "main": "public/electron.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
