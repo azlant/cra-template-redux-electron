@@ -1,10 +1,27 @@
 {
   "name": "electron-redux-template",
   "version": "0.1.0",
-  "description": "cra template for both electron and redux",
+  "license": "MIT",
+  "description": "cra template for electron + redux",
   "author": "Aaron Azlant",
-  "homepage": "./",
   "main": "public/electron.js",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "electron",
+    "eslint",
+    "redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azlant/cra-template-redux-electron",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/azlant/cra-template-redux-electron/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
