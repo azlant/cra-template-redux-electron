@@ -41,6 +41,7 @@
     "webpack-cli": "^3.3.5",
     "webpack-target-electron-renderer": "^0.4.0"
   },  
+  "main": "public/electron.js",
   "scripts": {
     "test": "react-scripts test",
     "eject": "react-scripts eject",
