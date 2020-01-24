@@ -1,6 +1,6 @@
 {
   "name": "cra-template-electron-redux",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "license": "MIT",
   "description": "cra template for electron + redux",
   "author": "Aaron Azlant",
@@ -51,7 +51,7 @@
     "build": "webpack --watch --config webpack.config.js",
     "electron": "electron .",
     "start": "npm-run-all --parallel build electron",
-    "postinstall": "cp /src/config ."
+    // "postinstall": "cp /src/config ."
   },
   "eslintConfig": {
     "extends": "react-app"
