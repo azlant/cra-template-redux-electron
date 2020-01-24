@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "cra template for electron + redux",
   "author": "Aaron Azlant",
-  "main": "template/public/electron.js",
+  "main": "template.js",
   "files": [
     "template",
     "template.json"
