@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "npm": {
+    "fileMatch": ["(^|/)template.json$"]
+  },
+  "rangeStrategy": "replace",
+  "automergeType": "branch"
+}
