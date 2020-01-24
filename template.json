@@ -46,6 +46,11 @@
     "webpack-target-electron-renderer": "^0.4.0"
   },
   "scripts": {
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "webpack --watch --config webpack.config.js",
+    "electron": "electron .",
+    "start": "npm-run-all --parallel build electron",
     "fix": "eslint --fix ./src/",
     "lint": "eslint ./src/"
   }
