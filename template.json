@@ -48,7 +48,6 @@
     "electron": "electron .",
     "start": "npm-run-all --parallel build electron",
     "fix": "eslint --fix ./src/",
-    "lint": "eslint ./src/",
-    "install": "mv /src/config/* ./; rm src/config"
+    "lint": "eslint ./src/",    
   }
 }
