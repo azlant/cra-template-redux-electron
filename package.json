@@ -1,10 +1,10 @@
 {
   "name": "cra-template-electron-redux",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "license": "MIT",
   "description": "cra template for electron + redux",
   "author": "Aaron Azlant",
-  "main": "template.json",
+  "main": "public/electron.js",
   "files": [
     "template",
     "template.json"
