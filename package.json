@@ -1,10 +1,14 @@
 {
   "name": "cra-template-electron-redux",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "description": "cra template for electron + redux",
   "author": "Aaron Azlant",
-  "main": "public/electron.js",
+  "main": "template.json",
+  "files": [
+    "template",
+    "template.json"
+  ],
   "keywords": [
     "react",
     "create-react-app",
