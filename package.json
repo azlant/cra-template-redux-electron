@@ -51,7 +51,7 @@
     "eject": "react-scripts eject",
     "build": "react-scripts build && node template/src/config/file-copy.js",
     "electron": "electron .",
-    "start": "npm-run-all --parallel build electron",
+    "start": "npm-run-all --parallel build electron"
   },
   "eslintConfig": {
     "extends": "react-app"
