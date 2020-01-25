@@ -1,6 +1,6 @@
 {
   "name": "cra-template-electron-redux",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "license": "MIT",
   "description": "cra template for electron + redux",
   "author": "Aaron Azlant",
