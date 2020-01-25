@@ -3,8 +3,8 @@ var ncp = require('ncp').ncp;
 
 ncp.limit = 16;
 
-var srcPath = '.'
-var destPath = '../..'
+var srcPath = 'config'
+var destPath = '../'
 
 console.log('Copying files...');
 ncp(srcPath, destPath, function (err) {
